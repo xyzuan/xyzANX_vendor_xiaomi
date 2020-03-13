@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-VENDOR_PATH := vendor/xiaomi/MiuiCamera
+VENDOR_PATH := vendor/xiaomi/ANXCamera
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/etc,system/etc)
 
