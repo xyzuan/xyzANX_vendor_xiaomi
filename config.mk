@@ -1,4 +1,4 @@
-# Copyright (C) 2019 The PixelExperience Project
+# Copyright (C) 2020 ANXcamera Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -17,6 +17,8 @@ VENDOR_PATH := vendor/xiaomi/MiuiCamera
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/etc,system/etc)
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib64,system/lib64)
+
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib,system/lib)
 
 PRODUCT_PACKAGES += \
     MiuiCamera
