@@ -21,4 +21,4 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib6
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,$(VENDOR_PATH)/system/lib,system/lib)
 
 PRODUCT_PACKAGES += \
-    MiuiCamera
+    ANXCamera
